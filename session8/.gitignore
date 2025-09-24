@@ -1,0 +1,13 @@
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test files
+test.db
+coverage.xml
+.coverage

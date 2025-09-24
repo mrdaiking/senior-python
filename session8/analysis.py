@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def main():
     # Đọc file CSV (giả sử có file sample.csv trong cùng thư mục)
     df = pd.read_csv("sample.csv")
@@ -18,6 +19,7 @@ def main():
     hanoi_users = df[df["city"] == "Hanoi"]
     hanoi_users.to_csv("hanoi_users.csv", index=False)
     print("\nExported Hanoi users to hanoi_users.csv")
+
 
 if __name__ == "__main__":
     main()
